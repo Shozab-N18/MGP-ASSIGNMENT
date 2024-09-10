@@ -28,7 +28,15 @@ Ensure you have the following software installed:
 
 ## Installation
 
-1. **Restore Dependencies**
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Shozab-N18/MGP-ASSIGNMENT
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd ./MGP-ASSIGNMENT
+    ```
+3. **Restore Dependencies**
 
    Restore the required dependencies:
 
@@ -53,6 +61,17 @@ Ensure you have the following software installed:
    ```bash
    dotnet run --project RaceCarDataProcessingApplication/RaceCarDataProcessingApplication.csproj
    ```
+
+---
+
+## Technologies
+
+- C#
+- .NET 8.0
+- ScottPlot for data visualization
+- Windows Forms for UI
+
+---
 
 ## Contact Information
 
