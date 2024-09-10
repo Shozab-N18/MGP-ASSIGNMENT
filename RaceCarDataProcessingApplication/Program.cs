@@ -10,10 +10,10 @@ class Program
         
         try
         {
-            processor.ReadData("../MGP Assignment/practice.dat");
+            processor.ReadData("./practice.dat");
             processor.ProcessData();
 
-            processor.ReadData("../MGP Assignment/qualifying.dat");
+            processor.ReadData("./qualifying.dat");
             processor.ProcessData();
         }
         catch (Exception e)
